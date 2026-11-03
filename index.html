@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta name="description" content="Portfolio personal de Angel Pereira Cortez, estudiante de Programación Web.">
+
   <title>Angel Pereira | Portfolio</title>
-  <link rel="stylesheet" href="css/estilos.css">
-  <script src="script.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./estilos.css">
+
+  <!-- JavaScript -->
+  <script src="./script.js" defer></script>
 </head>
+
 <body>
+
   <header class="header">
     <a class="logo" href="#inicio">Angel<span>.</span></a>
-    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+    <button
+      class="menu-toggle"
+      id="menu-toggle"
+      aria-label="Abrir menú"
+      aria-expanded="false"
+      type="button">
+      ☰
+    </button>
+
     <nav class="nav" id="nav">
       <a href="#sobre-mi">Sobre mí</a>
       <a href="#habilidades">Lo que estoy aprendiendo</a>
@@ -22,20 +40,47 @@
   </header>
 
   <main>
+
+    <!-- INICIO -->
     <section class="hero section" id="inicio">
+
       <div class="hero-content">
+
         <p class="small-title">Mi primer portfolio web</p>
+
         <h1>¡Hola! Soy <span>Angel Pereira</span></h1>
+
         <h2>Estoy aprendiendo desarrollo web.</h2>
-        <p class="hero-text">Soy estudiante de Programación Web en Educación IT. Estoy practicando con HTML, CSS y JavaScript y armé este espacio para mostrar lo que voy aprendiendo.</p>
+
+        <p class="hero-text">
+          Soy estudiante de Programación Web en Educación IT.
+          Estoy practicando con HTML, CSS y JavaScript y armé
+          este espacio para mostrar lo que voy aprendiendo.
+        </p>
+
         <div class="hero-actions">
-          <a class="button primary" href="#proyectos">Ver mis trabajos</a>
-          <a class="button secondary" href="#contacto">Contactarme</a>
+          <a class="button primary" href="#proyectos">
+            Ver mis trabajos
+          </a>
+
+          <a class="button secondary" href="#contacto">
+            Contactarme
+          </a>
         </div>
+
         <p class="location">Buenos Aires, Argentina</p>
+
       </div>
+
       <div class="hero-note">
-        <div class="note-top"><span></span><span></span><span></span><p>una nota para mí</p></div>
+
+        <div class="note-top">
+          <span></span>
+          <span></span>
+          <span></span>
+          <p>una nota para mí</p>
+        </div>
+
         <div class="note-content">
           <p class="comment">// En progreso...</p>
           <p>Aprender un poco</p>
@@ -44,117 +89,283 @@
           <p>y seguir mejorando.</p>
           <span class="cursor">_</span>
         </div>
+
       </div>
+
     </section>
 
+    <!-- SOBRE MÍ -->
     <section class="section" id="sobre-mi">
+
       <div class="section-title">
         <p class="section-number">01 — SOBRE MÍ</p>
         <h2>Un poco sobre mí</h2>
       </div>
+
       <div class="about-content">
-        <p>Actualmente estoy estudiando Programación Web en Educación IT y aprendiendo a crear sitios desde cero.</p>
-        <p>Este portfolio es parte de mi práctica. La idea es ir sumando los trabajos que haga, mostrar mis certificados y dejar a mano una forma de contactarme.</p>
-        <p>Todavía tengo mucho por aprender, pero me gusta avanzar practicando y viendo cómo mejora cada proyecto.</p>
+
+        <p>
+          Actualmente estoy estudiando Programación Web en Educación IT
+          y aprendiendo a crear sitios desde cero.
+        </p>
+
+        <p>
+          Este portfolio es parte de mi práctica. La idea es ir sumando
+          los trabajos que haga, mostrar mis certificados y dejar a mano
+          una forma de contactarme.
+        </p>
+
+        <p>
+          Todavía tengo mucho por aprender, pero me gusta avanzar
+          practicando y viendo cómo mejora cada proyecto.
+        </p>
+
       </div>
+
     </section>
 
+    <!-- CONOCIMIENTOS -->
     <section class="section" id="habilidades">
+
       <div class="section-title">
         <p class="section-number">02 — CONOCIMIENTOS</p>
+
         <h2>Lo que estoy aprendiendo</h2>
-        <p class="section-description">Estas son las tecnologías con las que estoy practicando actualmente.</p>
+
+        <p class="section-description">
+          Estas son las tecnologías con las que estoy practicando actualmente.
+        </p>
       </div>
+
       <div class="skills-list">
+
         <article class="skill">
           <span class="skill-badge html">HTML</span>
-          <div><h3>HTML</h3><p>Para organizar el contenido y la estructura de una página.</p></div>
+
+          <div>
+            <h3>HTML</h3>
+            <p>
+              Para organizar el contenido y la estructura de una página.
+            </p>
+          </div>
         </article>
+
         <article class="skill">
           <span class="skill-badge css">CSS</span>
-          <div><h3>CSS</h3><p>Para trabajar los colores, el diseño y cómo se ve la página en distintas pantallas.</p></div>
+
+          <div>
+            <h3>CSS</h3>
+            <p>
+              Para trabajar los colores, el diseño y cómo se ve la página
+              en distintas pantallas.
+            </p>
+          </div>
         </article>
+
         <article class="skill">
           <span class="skill-badge js">JS</span>
-          <div><h3>JavaScript</h3><p>Para empezar a agregar interacciones y funciones a los sitios web.</p></div>
+
+          <div>
+            <h3>JavaScript</h3>
+            <p>
+              Para empezar a agregar interacciones y funciones a los sitios web.
+            </p>
+          </div>
         </article>
+
       </div>
+
     </section>
 
+    <!-- PROYECTOS -->
     <section class="section" id="proyectos">
+
       <div class="section-title">
         <p class="section-number">03 — PRÁCTICA</p>
+
         <h2>Mis trabajos</h2>
-        <p class="section-description">Voy a ir agregando más proyectos a medida que los termine.</p>
+
+        <p class="section-description">
+          Voy a ir agregando más proyectos a medida que los termine.
+        </p>
       </div>
+
       <div class="work-list">
+
         <article class="work-card">
+
           <div class="work-number">01</div>
+
           <div class="work-details">
             <h3>Este portfolio</h3>
-            <p>Una página personal para presentarme, mostrar lo que estoy aprendiendo y compartir mis certificados.</p>
-            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+
+            <p>
+              Una página personal para presentarme, mostrar lo que estoy
+              aprendiendo y compartir mis certificados.
+            </p>
+
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
           </div>
+
           <span class="work-status">En progreso</span>
+
         </article>
+
         <article class="work-card">
+
           <div class="work-number">02</div>
+
           <div class="work-details">
             <h3>Sección de certificados</h3>
-            <p>Un espacio dentro de mi página para mostrar los cursos que aprobé y poder abrir cada certificado.</p>
-            <div class="tags"><span>HTML</span><span>CSS</span></div>
+
+            <p>
+              Un espacio dentro de mi página para mostrar los cursos
+              que aprobé y poder abrir cada certificado.
+            </p>
+
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
           </div>
+
           <span class="work-status">Incluida en el sitio</span>
+
         </article>
+
       </div>
+
     </section>
 
+    <!-- CERTIFICADOS -->
     <section class="section" id="certificados">
+
       <div class="section-title">
         <p class="section-number">04 — FORMACIÓN</p>
+
         <h2>Mis certificados</h2>
-        <p class="section-description">Estos son los cursos que aprobé en Educación IT.</p>
+
+        <p class="section-description">
+          Estos son los cursos que aprobé en Educación IT.
+        </p>
       </div>
+
       <div class="certificates">
+
         <article class="certificate">
-          <a class="cert-image" href="certificados/desarrollo-web-html.jpg" target="_blank" rel="noopener" aria-label="Abrir certificado Desarrollo Web con HTML">
-            <img src="certificados/desarrollo-web-html.jpg" alt="Certificado de Desarrollo Web con HTML">
+
+          <a
+            class="cert-image"
+            href="./certificados/desarrollo-web-html.jpg"
+            target="_blank"
+            rel="noopener"
+            aria-label="Abrir certificado Desarrollo Web con HTML">
+
+            <img
+              src="./certificados/desarrollo-web-html.jpg"
+              alt="Certificado de Desarrollo Web con HTML">
           </a>
+
           <div class="cert-info">
+
             <h3>Desarrollo Web con HTML</h3>
+
             <p>Educación IT · 18 horas</p>
+
             <p class="cert-date">2 de marzo de 2026</p>
-            <a class="cert-link" href="certificados/desarrollo-web-html.jpg" target="_blank" rel="noopener">Ver certificado completo ↗</a>
+
+            <a
+              class="cert-link"
+              href="./certificados/desarrollo-web-html.jpg"
+              target="_blank"
+              rel="noopener">
+              Ver certificado completo ↗️
+            </a>
+
           </div>
+
         </article>
+
         <article class="certificate">
-          <a class="cert-image" href="certificados/javascript-desde-cero.jpg" target="_blank" rel="noopener" aria-label="Abrir certificado JavaScript desde cero">
-            <img src="certificados/javascript-desde-cero.jpg" alt="Certificado de JavaScript desde cero">
+
+          <a
+            class="cert-image"
+            href="./certificados/javascript-desde-cero.jpg"
+            target="_blank"
+            rel="noopener"
+            aria-label="Abrir certificado JavaScript desde cero">
+
+            <img
+              src="./certificados/javascript-desde-cero.jpg"
+              alt="Certificado de JavaScript desde cero">
           </a>
+
           <div class="cert-info">
+
             <h3>JavaScript desde cero</h3>
+
             <p>Educación IT · 18 horas</p>
+
             <p class="cert-date">29 de noviembre de 2025</p>
-            <a class="cert-link" href="certificados/javascript-desde-cero.jpg" target="_blank" rel="noopener">Ver certificado completo ↗</a>
+
+            <a
+              class="cert-link"
+              href="./certificados/javascript-desde-cero.jpg"
+              target="_blank"
+              rel="noopener">
+              Ver certificado completo ↗️
+            </a>
+
           </div>
+
         </article>
+
       </div>
+
     </section>
 
+    <!-- CONTACTO -->
     <section class="section contact-section" id="contacto">
+
       <div class="contact-box">
+
         <p class="section-number">05 — CONTACTO</p>
+
         <h2>¿Querés contactarme?</h2>
-        <p>Estoy buscando seguir aprendiendo y sumar experiencia en desarrollo web.</p>
-        <a class="button primary" href="mailto:Angelmanuel21.2228@gmail.com">Mandame un email</a>
-        <p class="email">Angelmanuel21.2228@gmail.com</p>
+
+        <p>
+          Estoy buscando seguir aprendiendo y sumar experiencia
+          en desarrollo web.
+        </p>
+
+        <a
+          class="button primary"
+          href="mailto:angelmanuel21.2228@gmail.com">
+          Mandame un email
+        </a>
+
+        <p class="email">
+          angelmanuel21.2228@gmail.com
+        </p>
+
       </div>
+
     </section>
+
   </main>
 
+  <!-- FOOTER -->
   <footer class="footer">
+
     <p>Hecho por Angel Pereira · Portfolio personal</p>
+
     <a href="#inicio">Volver arriba ↑</a>
+
   </footer>
+
 </body>
 </html>
